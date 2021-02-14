@@ -1,0 +1,32 @@
+.todo-cont{
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+    width: 80%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 580px;
+  }
+
+.todo-item{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.todo-inp{
+    margin: 10px;
+    position: relative;
+}
+.todo-inp input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+}
+
+.todo-inp input:focus{
+    border: 2px solid rgb(153, 231, 231);
+}
+
